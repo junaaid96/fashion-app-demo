@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context="com.example.junaideath.fashionapp.SplashScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3F2FD">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="#E3F2FD">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/tshirtBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/shirt"
+                                android:padding="15dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="T-Shirt"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/jeansBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/jeans"
+                                android:padding="20dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jeans"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="#E3F2FD">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/vestBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/vest"
+                                android:padding="15dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Vest"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/phatBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/pamela"
+                                android:padding="15dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pamela Hat"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="#E3F2FD">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/beltBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/belt"
+                                android:padding="20dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Belt"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/ponchoBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/poncho"
+                                android:padding="20dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Poncho"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="#E3F2FD">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/wcoatBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/waistcoat"
+                                android:padding="20dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Waist Coat"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:background="#fff"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/socksBtn"
+                                android:layout_width="180dp"
+                                android:layout_height="200dp"
+                                android:background="#fff"
+                                android:src="@drawable/socks"
+                                android:padding="20dp"
+                                android:scaleType="fitXY" />
+                            <View
+                                android:layout_width="160dp"
+                                android:layout_height="2dp"
+                                android:background="@color/darkerGrey"
+                                android:layout_marginTop="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Socks"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
